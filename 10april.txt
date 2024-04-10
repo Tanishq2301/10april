@@ -1,0 +1,430 @@
+1. 67
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  return 0;
+}
+
+result : enter the value of a 67
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+2. 0
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  return 0;
+}
+
+
+enter the value of a 0
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+3. -9.8
+
+#include <stdio.h>
+
+int
+main ()
+{
+  float a;
+  printf ("enter the value of a");
+  scanf ("%f",&a);
+  return 0;
+}
+
+enter the value of a -9.8
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+4. -3
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  return 0;
+}
+
+enter the value of a -3 
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+5. 92
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  return 0;
+}
+
+enter the value of a 92
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+6. -8.9
+
+#include <stdio.h>
+
+int
+main ()
+{
+  float a;
+  printf ("enter the value of a");
+  scanf ("%f",&a);
+  return 0;
+}
+
+enter the value of a -8.9
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+7. 2+2
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  int b;
+  printf("enter the value of b");
+  scanf("%d",&b);
+  int c = a+b;
+  printf("%d",c);
+  return 0;
+}
+
+enter the value of a 2
+enter the value of b 2
+4
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+8. 43-5
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  int b;
+  printf("enter the value of b");
+  scanf("%d",&b);
+  int c = a-b;
+  printf("%d",c);
+  return 0;
+}
+
+enter the value of a 43
+enter the value of b 5
+38
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+9. 42/2
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  int b;
+  printf("enter the value of b");
+  scanf("%d",&b);
+  int c = a/b;
+  printf("%d",c);
+  return 0;
+}
+
+enter the value of a 42
+enter the value of b 2
+21
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+10. 56*3
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  int b;
+  printf("enter the value of b");
+  scanf("%d",&b);
+  int c = a*b;
+  printf("%d",c);
+  return 0;
+}
+
+enter the value of a 56 
+enter the value of b 3
+168
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+11. 34+67+3+89+12
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  int b;
+  printf("enter the value of b");
+  scanf("%d",&b);
+  int c;
+  printf("enter the value of c");
+  scanf("%d",&c);
+   int d;
+  printf("enter the value of d");
+  scanf("%d",&d);
+   int e;
+  printf("enter the value of e");
+  scanf("%d",&e);
+  int f = a+b+c+d+e;
+  printf("%d",f);
+  return 0;
+}
+
+enter the value of a 34
+enter the value of b 67
+enter the value of c 3
+enter the value of d 89
+enter the value of e 12
+205
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+12. 34+(4*4)-8 
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  int b;
+  printf("enter the value of b");
+  scanf("%d",&b);
+  int c;
+  printf("enter the value of c");
+  scanf("%d",&c);
+   int d;
+  printf("enter the value of d");
+  scanf("%d",&d);
+  int e = a+(b*c)-d;
+  printf("%d",e);
+  return 0;
+}
+
+enter the value of a 34
+enter the value of b 4
+enter the value of c 4
+enter the value of d 8
+42
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+13. 3.1*6.7-(2.2*2.2)-5.4
+
+#include <stdio.h>
+
+int
+main ()
+{
+  float a;
+  printf ("enter the value of a");
+  scanf ("%f",&a);
+  float b;
+  printf("enter the value of b");
+  scanf("%f",&b);
+  float c;
+  printf("enter the value of c");
+  scanf("%f",&c);
+  float d;
+  printf("enter the value of d");
+  scanf("%f",&d);
+  float e;
+  printf("enter the value of e");
+  scanf("%f",&e);
+  float f = a*b-(c*d)-e;
+  printf("%f",f);
+  return 0;
+}
+
+enter the value of a 3.1
+enter the value of b 6.7
+enter the value of c 2.2
+enter the value of d 2.2
+enter the value of e 5.4
+10.529999
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+14. 2.3-7+(3.4*6)-2.3/2 
+
+#include <stdio.h>
+
+int
+main ()
+{
+  float a;
+  printf ("enter the value of a");
+  scanf ("%f",&a);
+  int b;
+  printf("enter the value of b");
+  scanf("%d",&b);
+  float c;
+  printf("enter the value of c");
+  scanf("%f",&c);
+  int d;
+  printf("enter the value of d");
+  scanf("%d",&d);
+  float e;
+  printf("enter the value of e");
+  scanf("%f",&e);
+  int f;
+  printf("enter the value of f");
+  scanf("%d",&f);
+  float g = a-b+(c*d)-e/f;
+  printf("%f",g);
+  return 0;
+}
+
+enter the value of a 2.3
+enter the value of b 7
+enter the value of c 3.4
+enter the value of d 6
+enter the value of e 2.3
+enter the value of f 2
+14.550002
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+15. 23*2-9+34
+
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a");
+  scanf ("%d",&a);
+  int b;
+  printf("enter the value of b");
+  scanf("%d",&b);
+  int c;
+  printf("enter the value of c");
+  scanf("%d",&c);
+   int d;
+  printf("enter the value of d");
+  scanf("%d",&d);
+  int e = a*b-c+d;
+  printf("%d",e);
+  return 0;
+}
+
+enter the value of a 23
+enter the value of b 2
+enter the value of c 9
+enter the value of d 34
+71
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
+16. 4.5*7+(2.3-2)+34.6
+
+#include <stdio.h>
+
+int
+main ()
+{
+  float a;
+  printf ("enter the value of a");
+  scanf ("%f",&a);
+  int b;
+  printf("enter the value of b");
+  scanf("%d",&b);
+  float c;
+  printf("enter the value of c");
+  scanf("%f",&c);
+  int d;
+  printf("enter the value of d");
+  scanf("%d",&d);
+  float e;
+  printf("enter the value of e");
+  scanf("%f",&e);
+  float f = a*b+(c-d)+e;
+  printf("%f",f);
+  return 0;
+}
+
+enter the value of a 4.5
+enter the value of b 7
+enter the value of c 2.3
+enter the value of d 2
+enter the value of e 34.6
+66.399994
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
